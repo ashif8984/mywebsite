@@ -1,0 +1,47 @@
+
+
+/* *************************** */
+/* Below 1344px (smaller desktp) */
+/* *************************** */
+
+
+@media (max-width: 84em){
+
+  .hero{
+    max-width: 120rem;
+  }
+
+  .heading-primary{
+    font-size: 4.4rem;
+  }
+  
+}
+
+
+/* *************************** */
+/* Below 1200px(LAndscape tablets) */
+/* *************************** */
+
+@media (max-width: 84em){
+  
+  html{
+      font-size: 56.25%;
+  }
+
+  .grid{
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .hero {
+
+    gap: 4.8rem;
+
+  }
+  
+
+
+}
